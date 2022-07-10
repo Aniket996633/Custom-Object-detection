@@ -36,4 +36,9 @@ The weights can be found at below location
 To carry out the inference, weight file is provided.
 Run the below mentioned command after cloning `YOLO V5` from https://github.com/ultralytics/yolov5 and installing the pre-requisites.
 
-> ! python detect.py --weights <path/to/last.pt> --img 640 --conf 0.25 --source <path/to/test/dataset>
+The command to run the inference on testing set is given below.
+` ! python detect.py --weights <path/to/weights/last.pt> --img 640 --conf 0.25 --source <path/to/test/dataset> `
+
+The results on the given testing set can be found at below location.
+
+> /results
